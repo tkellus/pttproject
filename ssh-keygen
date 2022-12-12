@@ -1,0 +1,26 @@
+ssh-keygen
+
+(check git version)
+git --version
+
+=>One time install
+git config --global user.name "tkellus"
+
+
+=>check user.name
+git config user.name
+
+=>input email
+git config --global user.email "t.kellus.9@gmail.com"
+
+=check user.email
+git config user.email
+
+
+=>Always
+
+=first step(one time for one project)
+git init
+git remote add origin "git@github.com:tkellus/pttproject.git"
+
+=second step(always)
